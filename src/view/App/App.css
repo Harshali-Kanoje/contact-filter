@@ -1,0 +1,39 @@
+.body{
+    background-color: rgb(21, 21, 21);;
+}
+
+.contact-details{
+display: flex;
+flex-direction: column;
+/* justify-content: center; */
+width: 100vw;
+height: 100vh;
+align-items: center;
+background-color: rgb(21, 21, 21);
+color: white;
+padding: 30px;
+}
+
+.serch-input{
+    border-radius: 20px;
+    width: 500px;
+    border-bottom: 2px solid green;
+    border-top: 2px solid green;
+    padding: 10px;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media screen and (max-width:600px) {
+    .serch-input{
+        width: 300px;
+    }
+
+    .contact-details{
+        padding: 10px 0;
+    }
+        
+}

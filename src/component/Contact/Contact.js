@@ -1,10 +1,12 @@
 import React from 'react'
+import './Contact.css'
 
 const Contact = ({name,number}) => {
   return (
-    <div>
-      <h1>{name}</h1>
-      <p>{number}</p>
+    <div
+    className='contact'>
+      <span>{name}</span>
+      <span>{number}</span>
     </div>
   )
 }
