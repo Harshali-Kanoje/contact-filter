@@ -29,7 +29,8 @@ padding: 30px;
 
 @media screen and (max-width:600px) {
     .serch-input{
-        width: 300px;
+        width: 280px;
+        font-size: 17px;
     }
 
     .contact-details{
