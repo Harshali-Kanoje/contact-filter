@@ -34,7 +34,7 @@ const App = () => {
           })
         }
       </div>
-
+      {contact.length===0?<h1>No Contact Found</h1>:null}
     </div>
   )
 }
